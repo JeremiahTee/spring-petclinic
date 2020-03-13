@@ -28,6 +28,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(proxyBeanMethods = false)
 public class PetClinicApplication {
 
+	//Adding comment to trigger Jenkins build
 	public static void main(String[] args) {
 		SpringApplication.run(PetClinicApplication.class, args);
 	}
